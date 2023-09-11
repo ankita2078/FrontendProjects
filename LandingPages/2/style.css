@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+}
+
+#main #left {
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+    position: relative;
+
+}
+
+#lnav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+#lnavr {
+    display: flex;
+    align-items: center;
+}
+
+#lnavr a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#lnavr i {
+    color: royalblue;
+}
+
+#left #textcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textcenter h1 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+#textcenter p {
+    opacity: 6;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#textcenter a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 800;
+    opacity: 0.6;
+}
+
+#main #right {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+#main #right #rtop {
+    width: 100%;
+    height: 50%;
+    background-color: royalblue;
+    display: flex;
+}
+
+#main #right #rtopleft {
+    width: 55%;
+    height: 100%;
+    /* background-color: rgb(225, 63, 98); */
+    background-image: url(https://images.unsplash.com/photo-1654584240523-6b8d3f6c33b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=993&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#main #right #rtopright {
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(18, 112, 24); */
+    background-image: url(https://images.unsplash.com/photo-1618888007540-2bdead974bbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#main #right #rbottom {
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(235, 174, 32); */
+    background-image: url(https://images.unsplash.com/photo-1596807535149-197e7e8a4bd0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-size: cover;
+    background-position: center;
+}
